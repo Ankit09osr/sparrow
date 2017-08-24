@@ -1,6 +1,5 @@
 angular.module('sparrowFit')
 .service('timerService', function () {
-
 //Wondering where that fancy flip clock comes from? Look no further, it's all builth in this file.
 //FlipClock is a clock tool and many of the following functions come from it's library at flipclockjs.com.
 

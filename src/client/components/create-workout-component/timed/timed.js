@@ -1,14 +1,8 @@
 angular.module('sparrowFit')
 .controller('TimedCtrl', function(httpService, store) {
 
-   var token = store.get('id_token');
-   var profile = store.get('profile');
-   this.userId = store.get('profile')['user_id'];
-   console.log('helow from TimedCtrl')
-   console.log('profile', profile)
-   console.log('userid', this.userId)
-   console.log('Controller run');
-   console.log('Token :',token);
+  this.userId = store.get('profile')['user_id'];
+
   //data is the information send when a template is added.
   this.data= {};
 
